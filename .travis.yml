@@ -15,7 +15,5 @@ script:
   - cd ~/build/richelbilderbeek/$my_github
   - ./build_music
   - make
-  - if [[ -f libnds_example_1.nds ]]; then echo "YES :-)"; else echo "NO :-("; fi
-  #- ./travis_qmake_gcc_cpp98_libnds
-  #- desmume CppHelloWorldQtCreatorUbuntuNds.nds
+  - if [[ -f libnds_example_2.nds ]]; then echo "YES :-)"; else echo "NO :-("; fi
 
