@@ -5,12 +5,18 @@
 // https://github.com/devkitPro/buildscripts/issues/26
 extern "C" void __sync_synchronize() {}
 
+#include <maxmod9.h>
+#include "soundbank.h"
+#include "soundbank_bin.h"
+
 int main()
 {
   //Initialization
   consoleDemoInit();
   videoSetMode(MODE_FB0);
   vramSetBankA(VRAM_A_LCD);
+  mmInitDefaultMem((mm_addr)soundbank_bin);
+
 
   std::cout
     << "\n"
