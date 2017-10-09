@@ -1,11 +1,11 @@
-# libnds_example_1
+# libnds_example_2
 
 Branch|[![Travis CI logo](TravisCI.png)](https://travis-ci.org)|[![Codecov logo](Codecov.png)](https://www.codecov.io)
 ---|---|---
-master|[![Build Status](https://travis-ci.org/richelbilderbeek/libnds_example_1.svg?branch=master)](https://travis-ci.org/richelbilderbeek/libnds_example_1)|[![codecov.io](https://codecov.io/github/richelbilderbeek/libnds_example_1/coverage.svg?branch=master)](https://codecov.io/github/richelbilderbeek/libnds_example_1/branch/master)
-develop|[![Build Status](https://travis-ci.org/richelbilderbeek/libnds_example_1.svg?branch=develop)](https://travis-ci.org/richelbilderbeek/libnds_example_1)|[![codecov.io](https://codecov.io/github/richelbilderbeek/libnds_example_1/coverage.svg?branch=develop)](https://codecov.io/github/richelbilderbeek/libnds_example_1/branch/develop)
+master|[![Build Status](https://travis-ci.org/richelbilderbeek/libnds_example_2.svg?branch=master)](https://travis-ci.org/richelbilderbeek/libnds_example_2)|[![codecov.io](https://codecov.io/github/richelbilderbeek/libnds_example_2/coverage.svg?branch=master)](https://codecov.io/github/richelbilderbeek/libnds_example_2/branch/master)
+develop|[![Build Status](https://travis-ci.org/richelbilderbeek/libnds_example_2.svg?branch=develop)](https://travis-ci.org/richelbilderbeek/libnds_example_2)|[![codecov.io](https://codecov.io/github/richelbilderbeek/libnds_example_2/coverage.svg?branch=develop)](https://codecov.io/github/richelbilderbeek/libnds_example_2/branch/develop)
 
-![libnds_example_1](libnds_example_1.png)
+![libnds_example_2](libnds_example_2.png)
 
 This GitHub is part of 
 
@@ -20,7 +20,7 @@ make
 ## How to run?
 
 ```
-desmume libnds_example_1.nds
+desmume libnds_example_2.nds
 ```
 
 ## How to install `devkitPro` and `libnds`?
@@ -44,4 +44,5 @@ Restart the terminal for these exports to have an effect
  * [travis_qmake_gcc_cpp98_libnds](https://github.com/richelbilderbeek/travis_qmake_gcc_cpp98_libnds)
  * [travis_qmake_gcc_cpp11_libnds](https://github.com/richelbilderbeek/travis_qmake_gcc_cpp11_libnds)
  * [travis_qmake_gcc_cpp14_libnds](https://github.com/richelbilderbeek/travis_qmake_gcc_cpp14_libnds)
+ * [libnds_example_1](https://github.com/richelbilderbeek/libnds_example_1)
  * [libnds_example_2](https://github.com/richelbilderbeek/libnds_example_2)
