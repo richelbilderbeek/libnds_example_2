@@ -12,14 +12,9 @@ extern "C" void __sync_synchronize() {}
 int main()
 {
   //Initialization
-  PrintConsole m_screen_bottom;
-
-  //consoleDemoInit();
+  consoleDemoInit();
   videoSetMode(MODE_FB0);
   vramSetBankA(VRAM_A_LCD);
-
-  consoleInit(&m_screen_bottom, 3,BgType_Text4bpp, BgSize_T_256x256, 31, 0, false, true);
-  consoleSelect(&m_screen_bottom);
 
   //Initialize music
   mmInitDefaultMem((mm_addr)soundbank_bin);
@@ -30,9 +25,6 @@ int main()
   //Start music
   mmStart(MOD_MY_MUSIC, MM_PLAY_LOOP);
 
-  scanKeys(); //Don't forget!
-
-  /*  
   std::cout
     << "\n"
     << " libnds_example_2\n"
@@ -42,7 +34,7 @@ int main()
     << "   /libnds_example_2\n"
     << "\n"
     << " Press A and B keys for effect\n";
-  */
+
   //The maximum x coordinat
   const int maxx = 256;
   //The maximum y coordinat
