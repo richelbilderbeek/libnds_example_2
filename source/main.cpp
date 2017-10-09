@@ -15,8 +15,15 @@ int main()
   consoleDemoInit();
   videoSetMode(MODE_FB0);
   vramSetBankA(VRAM_A_LCD);
+
+  //Initialize music
   mmInitDefaultMem((mm_addr)soundbank_bin);
 
+  //Load music
+  mmLoad(MOD_123BENJL___CHIP02);
+
+  //Start music
+  mmStart(MOD_123BENJL___CHIP02,MM_PLAY_LOOP);
 
   std::cout
     << "\n"
